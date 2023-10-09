@@ -1,0 +1,47 @@
+{
+  "slug": "RS_Empi",
+  "name": "RS_Empi",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Empi",
+  "author": "Reid Spreiter",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "WaitGate",
+      "name": "WaitGate",
+      "description": "Timed Gate",
+      "tags": []
+    },
+    {
+      "slug": "WaitGate_Zero",
+      "name": "WaitGate_Zero",
+      "description": "Timed gate based on 0V signals",
+      "tags": []
+    },
+    {
+      "slug": "Tempinator_Dependence",
+      "name": "Tempinator_Dependence",
+      "description": "Tempo sequencer, featuring metric modulation",
+      "tags": ["Clock generator"]
+    },
+    {
+      "slug": "WaitGate_Reset",
+      "name": "WaitGate_Reset",
+      "description": "Now with reset capabilities!",
+      "tags": []
+    },
+    {
+      "slug": "FlipFlop",
+      "name": "FlipFlop",
+      "description": "Flip and Flop with 4 triggers",
+      "tags": []
+    }
+  ]
+}
