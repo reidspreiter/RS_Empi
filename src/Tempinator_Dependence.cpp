@@ -19,7 +19,6 @@ struct Step {
 
 struct Tempinator_Dependence : Module {
 
-	// Stores the sequence of steps
 	Step steps[8];
 
 	int seqStep = 0;
@@ -58,26 +57,26 @@ struct Tempinator_Dependence : Module {
 		OUTPUTS_LEN
 	};
 	enum LightId {
-		SEQ1_LIGHT, //0
+		SEQ1_LIGHT,
 		SEQ2_LIGHT,
 		SEQ3_LIGHT,
 		SEQ4_LIGHT,
 		SEQ5_LIGHT,
 		SEQ6_LIGHT,
 		SEQ7_LIGHT,
-		SEQ8_LIGHT, //7
-		POS1_LIGHT, //8
+		SEQ8_LIGHT,
+		POS1_LIGHT,
 		POS2_LIGHT,
 		POS3_LIGHT,
 		POS4_LIGHT,
 		POS5_LIGHT,
 		POS6_LIGHT,
 		POS7_LIGHT,
-		POS8_LIGHT, //15
+		POS8_LIGHT,
 		ACTIVE_LIGHT,
-		DEPMASTER_LIGHT, //17
+		DEPMASTER_LIGHT,
 		DEPPREV_LIGHT,
-		DEP2PREV_LIGHT, //19
+		DEP2PREV_LIGHT,
 		LIGHTS_LEN
 	};
 
@@ -348,14 +347,14 @@ struct Tempinator_DependenceWidget : ModuleWidget {
 		addParam(createParamCentered<RoundSmallBlackKnob>(mm2px(Vec(6.608, 58.344)), module, Tempinator_Dependence::DEPBEATS_PARAM));
 		addParam(createParamCentered<RoundSmallBlackKnob>(mm2px(Vec(23.902, 58.344)), module, Tempinator_Dependence::NEWBEATS_PARAM));
 		addParam(createParamCentered<VCVButton>(mm2px(Vec(23.902, 76.202)), module, Tempinator_Dependence::DEP_PARAM));
-		addParam(createParamCentered<RoundSmallBlackKnob>(mm2px(Vec(6.608, 88.763)), module, Tempinator_Dependence::HOLD_PARAM));
-		addParam(createParamCentered<RoundSmallBlackKnob>(mm2px(Vec(23.911, 88.763)), module, Tempinator_Dependence::RATE_PARAM));
-		addParam(createParamCentered<VCVButton>(mm2px(Vec(14.142, 108.255)), module, Tempinator_Dependence::RESET_PARAM));
+		addParam(createParamCentered<RoundSmallBlackKnob>(mm2px(Vec(6.608, 87.175)), module, Tempinator_Dependence::HOLD_PARAM));
+		addParam(createParamCentered<RoundSmallBlackKnob>(mm2px(Vec(23.911, 87.175)), module, Tempinator_Dependence::RATE_PARAM));
+		addParam(createParamCentered<VCVButton>(mm2px(Vec(14.142, 106.088)), module, Tempinator_Dependence::RESET_PARAM));
 
-		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(6.608, 108.255)), module, Tempinator_Dependence::RESET_INPUT));
+		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(6.608, 106.088)), module, Tempinator_Dependence::RESET_INPUT));
 
 		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(23.902, 17.554)), module, Tempinator_Dependence::BPM_OUTPUT));
-		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(23.911, 108.255)), module, Tempinator_Dependence::CLOCK_OUTPUT));
+		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(23.911, 106.089)), module, Tempinator_Dependence::CLOCK_OUTPUT));
 
 		addChild(createLightCentered<SmallLight<GreenLight>>(mm2px(Vec(5.359, 32.865)), module, Tempinator_Dependence::SEQ1_LIGHT));
 		addChild(createLightCentered<SmallLight<GreenLight>>(mm2px(Vec(8.182, 32.865)), module, Tempinator_Dependence::SEQ2_LIGHT));

@@ -1,7 +1,7 @@
 {
   "slug": "RS_Empi",
   "name": "RS_Empi",
-  "version": "2.0.0",
+  "version": "2.3.1",
   "license": "GPL-3.0-or-later",
   "brand": "Empi",
   "author": "Reid Spreiter",
@@ -29,7 +29,9 @@
       "slug": "Tempinator_Dependence",
       "name": "Tempinator_Dependence",
       "description": "Tempo sequencer, featuring metric modulation",
-      "tags": ["Clock generator"]
+      "tags": [
+        "Clock generator"
+      ]
     },
     {
       "slug": "WaitGate_Reset",
@@ -41,6 +43,54 @@
       "slug": "FlipFlop",
       "name": "FlipFlop",
       "description": "Flip and Flop with 4 triggers",
+      "tags": []
+    },
+    {
+      "slug": "Tempinator",
+      "name": "Tempinator",
+      "description": "Twelve-step tempo sequencer",
+      "tags": []
+    },
+    {
+      "slug": "FloppityFlippity",
+      "name": "FloppityFlippity",
+      "description": "Flips two inputs into a single output with dependent triggers",
+      "tags": []
+    },
+    {
+      "slug": "FlopFlip",
+      "name": "FlopFlip",
+      "description": "Flips two inputs into a single output",
+      "tags": []
+    },
+    {
+      "slug": "FlippityFloppity",
+      "name": "FlippityFloppity",
+      "description": "Flips one input into two outputs with dependent triggers",
+      "tags": []
+    },
+    {
+      "slug": "Accent",
+      "name": "Accent",
+      "description": "Pulse after a specified amount of beats",
+      "tags": []
+    },
+    {
+      "slug": "WaitGate_Duo",
+      "name": "WaitGate_Duo",
+      "description": "Waitgate but waits for two channels",
+      "tags": []
+    },
+    {
+      "slug": "Tempinator_DepAcc",
+      "name": "Tempinator_DepAcc",
+      "description": "Tempinator_Dependence with accent capabilities",
+      "tags": []
+    },
+    {
+      "slug": "Accent_Separate",
+      "name": "Accent_Separate",
+      "description": "Accent with individual outputs",
       "tags": []
     }
   ]

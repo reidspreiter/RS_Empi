@@ -12,4 +12,12 @@ void init(Plugin* p) {
 	p->addModel(modelTempinator_Dependence);
 	p->addModel(modelWaitGate_Reset);
 	p->addModel(modelFlipFlop);
+	p->addModel(modelTempinator);
+	p->addModel(modelFloppityFlippity);
+	p->addModel(modelFlopFlip);
+	p->addModel(modelFlippityFloppity);
+	p->addModel(modelAccent);
+	p->addModel(modelWaitGate_Duo);
+	p->addModel(modelTempinator_DepAcc);
+	p->addModel(modelAccent_Separate);
 }
