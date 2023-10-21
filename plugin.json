@@ -92,6 +92,12 @@
       "name": "Accent_Separate",
       "description": "Accent with individual outputs",
       "tags": []
+    },
+    {
+      "slug": "Balance",
+      "name": "Balance",
+      "description": "Balance the occurance of three inputs",
+      "tags": []
     }
   ]
 }

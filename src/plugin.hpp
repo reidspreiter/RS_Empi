@@ -21,3 +21,4 @@ extern Model* modelAccent;
 extern Model* modelWaitGate_Duo;
 extern Model* modelTempinator_DepAcc;
 extern Model* modelAccent_Separate;
+extern Model* modelBalance;

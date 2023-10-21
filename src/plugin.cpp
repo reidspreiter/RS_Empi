@@ -20,4 +20,5 @@ void init(Plugin* p) {
 	p->addModel(modelWaitGate_Duo);
 	p->addModel(modelTempinator_DepAcc);
 	p->addModel(modelAccent_Separate);
+	p->addModel(modelBalance);
 }
